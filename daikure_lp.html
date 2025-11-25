@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ダイクレ興産株式会社 | 採用ランディングページ</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: { DEFAULT: '#0B1E3D', dark: '#050f21' },
+                        silver: '#E0E5E9',
+                        safety: '#FFD700', // 強調色（黄色）
+                        alert: '#EF4444', // 悩み喚起用（赤）
+                    },
+                    fontFamily: {
+                        sans: ['"Noto Sans JP"', 'sans-serif'],
+                        display: ['"Oswald"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-gradient {
+            background: linear-gradient(rgba(11, 30, 61, 0.7), rgba(11, 30, 61, 0.9)), url('https://images.unsplash.com/photo-1565008447742-97f6f38c985c?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        .triangle-down {
+            width: 0; 
+            height: 0; 
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid #FFD700;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <header class="hero-gradient min-h-[90vh] flex flex-col justify-center items-center text-center px-4 relative">
+        <div class="max-w-4xl mx-auto">
+            <p class="bg-safety text-navy font-bold py-1 px-4 inline-block mb-6 tracking-widest text-sm md:text-base uppercase animate-pulse">
+                広島・呉エリアの経験者へ告ぐ
+            </p>
+            <h1 class="text-white font-black text-3xl md:text-5xl leading-tight mb-6 drop-shadow-lg">
+                「現場は好きだが、<br class="md:hidden">将来が不安だ」<br>
+                <span class="text-4xl md:text-6xl mt-2 block text-safety">その悩み、ここで終わらせませんか？</span>
+            </h1>
+            <p class="text-silver text-lg md:text-xl font-medium mb-10 leading-relaxed max-w-2xl mx-auto">
+                「日給月給で雨の日は稼げない」「休みがなくて体がきつい」<br>
+                それはあなたのせいではなく、環境のせいです。<br>
+                <strong class="text-white border-b-2 border-safety">年間休日123日・賞与4.0ヶ月・完全月給制。</strong><br>
+                ダイクレ興産は、あなたの「当たり前」を覆します。
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-lg mx-auto">
+                <a href="#offer" class="bg-safety text-navy text-xl font-bold py-5 px-8 rounded shadow-[0_0_20px_rgba(255,215,0,0.5)] hover:bg-white hover:scale-105 transition transform duration-200 w-full">
+                    工場見学に進む
+                    <span class="block text-xs font-normal mt-1 opacity-80">履歴書不要・まずは見るだけ</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="absolute bottom-0 w-full bg-navy/80 backdrop-blur border-t border-white/10 py-4">
+            <div class="container mx-auto flex justify-center gap-4 md:gap-12 text-white/80 text-xs md:text-sm font-bold">
+                <span class="flex items-center"><span class="text-safety text-xl mr-2">●</span>NETIS登録独自技術</span>
+                <span class="flex items-center"><span class="text-safety text-xl mr-2">●</span>広島県内売上98位G</span>
+                <span class="flex items-center"><span class="text-safety text-xl mr-2">●</span>創業70年の安定基盤</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-center text-3xl md:text-4xl font-bold text-navy mb-12">
+                こんな<span class="text-alert border-b-4 border-alert">「現場あるある」</span>に<br>
+                人生をすり減らしていませんか？
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-8 rounded shadow-sm border-l-8 border-gray-400">
+                    <h3 class="text-xl font-bold text-gray-700 mb-3 flex items-center">
+                        <span class="bg-gray-400 text-white w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">✕</span>
+                        給料が安定しない
+                    </h3>
+                    <p class="text-gray-600">「雨で現場が中止になると給料が減る」「日給月給だから、GWや正月の月は生活が苦しい」。来月の収入が読めない不安。</p>
+                </div>
+                <div class="bg-white p-8 rounded shadow-sm border-l-8 border-gray-400">
+                    <h3 class="text-xl font-bold text-gray-700 mb-3 flex items-center">
+                        <span class="bg-gray-400 text-white w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">✕</span>
+                        休みが取れない
+                    </h3>
+                    <p class="text-gray-600">「土曜出勤は当たり前」「友人と予定が合わない」。家族サービスもできず、ただ寝て終わるだけの日曜日。</p>
+                </div>
+                <div class="bg-white p-8 rounded shadow-sm border-l-8 border-gray-400">
+                    <h3 class="text-xl font-bold text-gray-700 mb-3 flex items-center">
+                        <span class="bg-gray-400 text-white w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">✕</span>
+                        汚い・きつい・将来がない
+                    </h3>
+                    <p class="text-gray-600">「3K」と揶揄される仕事。体力があるうちはいいけれど、40代、50代になってもこの働き方ができるのか…</p>
+                </div>
+                <div class="bg-white p-8 rounded shadow-sm border-l-8 border-gray-400">
+                    <h3 class="text-xl font-bold text-gray-700 mb-3 flex items-center">
+                        <span class="bg-gray-400 text-white w-8 h-8 rounded-full flex items-center justify-center mr-3 text-sm">✕</span>
+                        ブラック企業への恐怖
+                    </h3>
+                    <p class="text-gray-600">転職したいけど、「次もブラックだったらどうしよう」と怖くて動けない。求人票の良いことばかり書いてある文言が信じられない。</p>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <div class="triangle-down mb-4 animate-bounce"></div>
+                <p class="text-2xl font-bold text-navy">
+                    もし一つでも当てはまるなら、<br>
+                    <span class="text-safety bg-navy px-2 py-1 inline-block mt-2 transform -rotate-1">ダイクレ興産がその「不安」を全て引き受けます。</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-navy text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-white/5 to-transparent"></div>
+
+        <div class="container mx-auto px-4 relative z-10 max-w-5xl">
+            <h2 class="text-center text-3xl md:text-5xl font-bold mb-6">
+                業界の常識を疑え。<br>
+                これが<span class="text-safety">「ダイクレ基準」</span>です。
+            </h2>
+            <p class="text-center text-silver mb-12 max-w-2xl mx-auto">
+                私たちは「社員の生活の質」を守ることが、<br>「質の高い仕事」に繋がると本気で信じています。だから、待遇が違います。
+            </p>
+
+            <div class="bg-white rounded-lg overflow-hidden text-gray-800 shadow-2xl">
+                <div class="grid grid-cols-3 bg-gray-200 border-b-2 border-gray-300 text-center font-bold text-sm md:text-lg">
+                    <div class="p-4 md:p-6 text-gray-500">一般的な<br class="md:hidden">3K現場</div>
+                    <div class="p-4 md:p-6 text-gray-500">比較項目</div>
+                    <div class="p-4 md:p-6 bg-safety text-navy text-base md:text-xl">ダイクレ興産</div>
+                </div>
+
+                <div class="grid grid-cols-3 border-b border-gray-100 items-center">
+                    <div class="p-4 text-center text-sm md:text-base bg-gray-50 text-gray-500">
+                        105日程度<br><span class="text-xs">(日曜+隔週土曜)</span>
+                    </div>
+                    <div class="p-4 text-center font-bold text-navy text-sm md:text-lg">
+                        年間休日
+                    </div>
+                    <div class="p-4 text-center font-bold text-navy text-lg md:text-2xl bg-yellow-50">
+                        123日<br>
+                        <span class="text-xs md:text-sm font-normal text-gray-600">土日祝 完全休み</span>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-3 border-b border-gray-100 items-center">
+                    <div class="p-4 text-center text-sm md:text-base bg-gray-50 text-gray-500">
+                        日給月給制<br><span class="text-xs">(雨天中止で減給)</span>
+                    </div>
+                    <div class="p-4 text-center font-bold text-navy text-sm md:text-lg">
+                        給与形態
+                    </div>
+                    <div class="p-4 text-center font-bold text-navy text-lg md:text-2xl bg-yellow-50">
+                        完全月給制<br>
+                        <span class="text-xs md:text-sm font-normal text-gray-600">天候に関係なく安定</span>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-3 border-b border-gray-100 items-center">
+                    <div class="p-4 text-center text-sm md:text-base bg-gray-50 text-gray-500">
+                        寸志程度<br><span class="text-xs">(業績による)</span>
+                    </div>
+                    <div class="p-4 text-center font-bold text-navy text-sm md:text-lg">
+                        賞与(ボーナス)
+                    </div>
+                    <div class="p-4 text-center font-bold text-navy text-lg md:text-2xl bg-yellow-50">
+                        4.0ヶ月分<br>
+                        <span class="text-xs md:text-sm font-normal text-gray-600">※昨年度実績</span>
+                    </div>
+                </div>
+
+                 <div class="grid grid-cols-3 items-center">
+                    <div class="p-4 text-center text-sm md:text-base bg-gray-50 text-gray-500">
+                        きつい・汚い・危険<br><span class="text-xs">(ただの作業)</span>
+                    </div>
+                    <div class="p-4 text-center font-bold text-navy text-sm md:text-lg">
+                        仕事の価値
+                    </div>
+                    <div class="p-4 text-center font-bold text-navy text-lg md:text-xl bg-yellow-50">
+                        インフラの守護者<br>
+                        <span class="text-xs md:text-sm font-normal text-gray-600">独自技術で国を守る</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-10">
+                <p class="text-silver mb-4">この待遇の違いは、圧倒的な「企業体力（売上ランク98位）」があるからこそ実現できます。</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-center text-3xl font-bold text-navy mb-12">
+                なぜ、私たちは「高待遇」なのか？<br>
+                <span class="text-lg font-normal text-gray-500 mt-2">理由は、他社には真似できない「技術力」にあります。</span>
+            </h2>
+
+            <div class="flex flex-col md:flex-row items-center gap-12 max-w-6xl mx-auto">
+                <div class="w-full md:w-1/2">
+                    <div class="relative rounded-lg overflow-hidden shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1535198038612-9c364c01777d?q=80&w=1974&auto=format&fit=crop" alt="High Tech Bridge Maintenance" class="w-full h-auto object-cover">
+                        <div class="absolute bottom-0 left-0 bg-navy/90 text-white p-4 w-full">
+                            <p class="font-bold text-safety">支承リバイバルシステム</p>
+                            <p class="text-xs">国交省 NETIS登録技術</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 space-y-6">
+                    <div>
+                        <h3 class="text-2xl font-bold text-navy mb-2">① 日本でここだけの独自技術</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            狭い橋の隙間（50mm）に入り込んで補修できる特殊ノズル技術を保有。競合がいないため、価格競争に巻き込まれず、高い利益率を確保できます。その利益を、社員の給与と休日に還元しています。
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-navy mb-2">② インフラ維持は「国策」</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            橋や高速道路の老朽化対策は、国がなくならない限り続く仕事です。「仕事がなくなる」という不安とは無縁の環境です。
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-navy mb-2">③ ワンストップ体制</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            塗装、めっき、溶射。これら全てを自社グループで完結できる企業は稀です。この「総合力」が、安定した受注を生み出しています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-50 border-t border-gray-200">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <h2 class="text-center text-3xl font-bold text-navy mb-12">
+                ダイクレ興産に入社して、<br>
+                生活はこう変わりました。
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded shadow-lg flex flex-col items-center text-center">
+                    <div class="w-20 h-20 bg-gray-300 rounded-full mb-4 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1974&auto=format&fit=crop" class="w-full h-full object-cover" alt="Staff">
+                    </div>
+                    <p class="text-sm text-gray-500 mb-2">入社3年目 / 元美容師</p>
+                    <h3 class="text-xl font-bold text-navy mb-4">「家族との時間が劇的に増えました」</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        以前は土日も仕事で、子供の行事にも参加できませんでした。今はカレンダー通りに休めるので、キャンプに行ったり野球を見に行ったり。仕事も「ハサミ」から「スプレーガン」に持ち替えましたが、手先の器用さが活かせていて楽しいです。
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded shadow-lg flex flex-col items-center text-center">
+                    <div class="w-20 h-20 bg-gray-300 rounded-full mb-4 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1542596594-649edbc13630?q=80&w=1974&auto=format&fit=crop" class="w-full h-full object-cover" alt="Staff">
+                    </div>
+                    <p class="text-sm text-gray-500 mb-2">入社5年目 / 元建設作業員</p>
+                    <h3 class="text-xl font-bold text-navy mb-4">「国家資格を5つも取得できました」</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        費用は全額会社持ちで、金属塗装技能士などの国家資格を取らせてもらいました。以前は「使い捨て」のように扱われていましたが、ここでは「プロ」として育ててくれます。一生食いっぱぐれない自信がつきました。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="offer" class="py-24 bg-navy text-white text-center px-4">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-5xl font-black mb-6">
+                まずは、あなたの目で<br>
+                <span class="text-safety">「真実」</span>を確かめてください。
+            </h2>
+            <p class="text-silver text-lg mb-10 leading-relaxed">
+                いきなり面接を受ける必要はありません。<br>
+                本当に残業が少ないのか、本当に社員が笑って働いているのか。<br>
+                工場の空気を吸いに来てください。私たちは、何も隠しません。
+            </p>
+
+            <div class="bg-white/10 p-8 rounded-lg border border-white/20 mb-10">
+                <p class="text-safety font-bold text-xl mb-4">工場見学＆カジュアル面談の内容</p>
+                <ul class="text-left text-silver space-y-3 inline-block mx-auto">
+                    <li class="flex items-start"><span class="text-safety mr-2">✓</span> 実際の作業現場（橋の部材など）のご案内</li>
+                    <li class="flex items-start"><span class="text-safety mr-2">✓</span> 先輩社員への質疑応答（給与のこと等、何でもOK）</li>
+                    <li class="flex items-start"><span class="text-safety mr-2">✓</span> 履歴書不要。私服でOK。所要時間30分〜</li>
+                </ul>
+            </div>
+
+            <div class="flex flex-col gap-4">
+                <a href="#" class="bg-safety text-navy text-2xl font-bold py-6 px-8 rounded shadow-lg hover:bg-white hover:scale-105 transition transform duration-200">
+                    工場見学に申し込む
+                    <span class="text-sm block font-normal mt-1 opacity-80">（入力は1分で完了します）</span>
+                </a>
+                <p class="text-sm text-gray-400 mt-2">※無理な勧誘は一切行いません。ご安心ください。</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
